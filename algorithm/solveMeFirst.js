@@ -1,3 +1,5 @@
+// Algorithm - solveMeFirst
+
 const solveMeFirst = (a, b) => {
     return a + b
 }

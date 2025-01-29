@@ -1,3 +1,5 @@
+// Algorithm - Array Sum
+
 // Using Functional Programming
 const arraySum = (ar) => {
     return ar.reduce((sum, num) => sum + num, 0)
