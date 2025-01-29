@@ -2,7 +2,7 @@
 
 // using functional Programming
 const reverseArray = (arr) => {
-    return arr.reverse()
+    return arr.slice().reverse()
 }
 
 const arr = [1, 2, 3]
@@ -11,7 +11,7 @@ console.log(reverseArray(arr))
 // using Loop
 const arReverse = (ar) => {
     let reversear = []
-    for (i = ar.length - 1; i >= 0; i--) {
+    for (let i = ar.length - 1; i >= 0; i--) {
         reversear.push(ar[i])
     }
 
