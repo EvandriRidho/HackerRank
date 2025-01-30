@@ -2,6 +2,7 @@
 
 // Using Functional Programming
 const arraySum = (ar) => {
+    // Menghitung array
     return ar.reduce((sum, num) => sum + num, 0)
 }
 
@@ -10,8 +11,11 @@ console.log(arraySum(ar))
 
 // Using Looping
 const simpleArraySum = (arr) => {
+    // inisiasi sum 
     let sum = 0
+    // loop array
     for (i = 0; i < arr.length; i++) {
+        // setiap loop ditambah sum
         sum += arr[i]
     }
     return sum
