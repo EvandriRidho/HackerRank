@@ -1,6 +1,7 @@
 // Algorithm - A Very Big Sum
 
 const aVeryBigSum = (ar) => {
+    // Menghitung array
     return ar.reduce((sum, num) => sum + num, 0)
 }
 
