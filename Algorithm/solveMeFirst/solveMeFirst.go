@@ -10,7 +10,10 @@ func solveMeFirst(a int, b int) int {
 
 func main() {
     var a, b int
-    fmt.Scanln(&a)
-    fmt.Scanln(&b)
+    fmt.Print("Masukkan angka a: ")
+    fmt.Scan(&a) 
+
+    fmt.Print("Masukkan angka b: ")
+    fmt.Scan(&b) 
     fmt.Println(solveMeFirst(a, b))
 }
