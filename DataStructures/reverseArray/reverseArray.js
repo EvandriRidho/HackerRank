@@ -1,4 +1,4 @@
-// Data Structures - Array
+// Data Structures - Reverse Array
 
 // using functional Programming
 const reverseArray = (arr) => {
