@@ -1,1 +1,1 @@
-# Repo Hackerrank JS, TS, Go
+# Repo Hackerrank JS, TS, Go.
